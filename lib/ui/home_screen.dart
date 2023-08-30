@@ -140,7 +140,7 @@ class _HomeScreenState extends State<HomeScreen>
             ),
           ),
           Expanded(
-            child: quotes.isEmpty 
+            child: quotes.isEmpty
                 ? Center(
                     child: CircularProgressIndicator(),
                   )
@@ -252,7 +252,7 @@ class _HomeScreenState extends State<HomeScreen>
           )),
       floatingActionButtonLocation: CustomFloatingActionButtonLocation(
         xOffset: -90,
-        yOffset: -556,
+        yOffset: -576,
       ),
     );
   }
